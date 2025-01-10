@@ -3,7 +3,6 @@ from exa_py import Exa
 
 st.title("Web Article Search")
 
-# Hardcoded API key
 try:
     EXA_API_KEY = st.secrets["EXA_AI_API_KEY"]
     exa = Exa(api_key=EXA_API_KEY)
